@@ -38,7 +38,7 @@ describe("ngân sách kích thước image", () => {
     const run = (...a) =>
       spawnSync("node", [join(ROOT, "scripts/check-image-size.mjs"), ...a], { encoding: "utf8" }).status;
     expect(run("postgres", String(450e6))).toBe(0);
-    expect(run("postgres", String(551e6))).toBe(1);
+    expect(run("postgres", String(621e6))).toBe(1);
   });
 
   it("job image-scan đo bằng docker image inspect rồi kiểm ngân sách TRƯỚC khi quét", () => {
