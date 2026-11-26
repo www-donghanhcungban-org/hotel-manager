@@ -6,6 +6,7 @@ phiên bản theo [SemVer](https://semver.org/lang/vi/). Chưa có bản phát h
 ## [Unreleased]
 
 ### Added
+- Buồng phòng: nhân viên chọn tầng theo cơ sở để xem việc theo thứ tự ưu tiên, kể cả trên trình duyệt tắt JavaScript (S-003).
 - Mở mã theo giấy phép MIT (thay giấy phép độc quyền của D-111): `LICENSE`, `NOTICE` (Caddy Apache-2.0, nhãn hiệu), `license: MIT`
   trong mọi `package.json`; README thêm mục "Ủng hộ và liên hệ" (mã VietQR, liên hệ, hỗ trợ triển khai) và `.github/FUNDING.yml`.
 - Đợt 1 — nền: pnpm workspace (`apps/web`, `apps/worker`, `packages/*`), schema biến môi trường, `packages/db` (Kysely, migration,
