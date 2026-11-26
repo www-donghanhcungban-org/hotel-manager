@@ -35,7 +35,7 @@ Số liệu và trần ở [`perf/resource-budgets.json`](../perf/resource-budge
 
 | Tài nguyên | Trần | Số đo (2026-10-18) | Máy kiểm |
 |---|---|---|---|
-| Image `postgres` (+ pgBackRest) | 550 MB | 455,8 MB | job `image-scan` → `scripts/check-image-size.mjs` |
+| Image `postgres` (+ pgBackRest) | 620 MB | 586,3 MB (vá CVE 17.12, zlib, pgBackRest) | job `image-scan` → `scripts/check-image-size.mjs` |
 | Image nền web/worker `node-base` | 285 MB | 234,7 MB | như trên |
 | Image `seaweedfs` | 280 MB | 231,1 MB (tự dựng, PR #133; trước: 529,2 MB image chính thức) | như trên |
 | Image `caddy` | 80 MB | 67,1 MB (tự dựng, PR #133) | như trên |

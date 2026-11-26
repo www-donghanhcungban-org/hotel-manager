@@ -1,7 +1,7 @@
 {
   "basis": "XC-GREEN-002. Image: imageSize trong báo cáo grype của CI trên main 251f605 (2026-10-18) × 1,2, làm tròn lên 5 MB; CI: số job và timeout của workflow chạy trên pull_request tại cùng commit + biên (2026-10-22, D-091/D-092: pha harden, mọi cổng chạy trên PR; e2e 6 shard × 15 phút). Nới ngân sách phải ghi lý do ở docs/PERF-BUDGET.md (mục Ngân sách tài nguyên) trong cùng PR.",
   "images": {
-    "postgres": { "max_mb": 550, "measured_mb": 455.8 },
+    "postgres": { "max_mb": 620, "measured_mb": 586.3 },
     "node-base": { "max_mb": 285, "measured_mb": 234.7 },
     "seaweedfs": { "max_mb": 280, "measured_mb": 231.1 },
     "caddy": { "max_mb": 80, "measured_mb": 67.1 }

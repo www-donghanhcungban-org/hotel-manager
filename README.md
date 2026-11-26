@@ -108,7 +108,7 @@ Kiểm phụ thuộc có lỗ hổng: `pnpm audit --prod`.
 
 Một thay đổi nhỏ một commit (Conventional Commits, tiếng Việt), qua cổng ở trên; mẫu PR ở
 [`.github/pull_request_template.md`](.github/pull_request_template.md). Không dùng dữ liệu thật ở dev/test.
-Giấy phép mã nguồn và kênh báo lỗ hổng: chưa có (chờ chủ dự án quyết — `PROJECT.md` §10).
+Giấy phép mã nguồn: MIT (mục [Giấy phép](#giấy-phép)); kênh báo lỗ hổng: [`SECURITY.md`](SECURITY.md).
 
 ## Hook git
 
@@ -140,3 +140,22 @@ HTTP 403/404, lỗi mạng hoặc lỗi máy chủ dừng trước khi ghi; ki�
 Với Release PR do `GITHUB_TOKEN` tạo, người có quyền ghi chọn **Approve workflows to run** trong khung merge khi GitHub yêu cầu duyệt chạy CI.
 Nếu PR vẫn đứng ở **Expected** và chưa có lượt chạy, người có quyền có thể đóng rồi mở lại Release PR để kích hoạt sự kiện từ tài khoản của mình.
 Chỉ merge sau khi mọi check bắt buộc xanh. [Hướng dẫn kích hoạt workflow của GitHub](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
+
+## Ủng hộ và liên hệ
+
+Dự án miễn phí và mở mã. Nếu nó giúp bạn tiết kiệm thời gian, bạn có thể ủng hộ để tác giả duy trì và phát triển tiếp:
+
+<img src="docs/assets/donate-vietqr-techcombank.png" alt="Mã VietQR ủng hộ: Techcombank, số tài khoản 890977819110" width="260">
+
+- Quét mã VietQR bằng ứng dụng ngân hàng bất kỳ, hoặc chuyển khoản **Techcombank — số tài khoản `890977819110`**.
+- Liên hệ, góp ý, hợp tác: điện thoại / Zalo **[+84 977 819 110](https://zalo.me/0977819110)** ·
+  email **admin@donghanhcungban.org**. Lỗi và đề xuất tính năng xin mở issue trên GitHub.
+- **Hỗ trợ triển khai:** tác giả hỗ trợ cài đặt và áp dụng dự án cho nhu cầu của bạn — **trực tiếp tại TP. Hồ Chí Minh**
+  hoặc **online** ở bất kỳ đâu. Liên hệ qua điện thoại/Zalo hoặc email ở trên để trao đổi.
+
+Ủng hộ là tự nguyện, không kèm quyền lợi riêng; hỗ trợ triển khai thoả thuận riêng theo từng dự án.
+
+## Giấy phép
+
+Mở mã theo giấy phép [MIT](LICENSE) (`"license": "MIT"` trong mọi `package.json`). Thành phần bên thứ ba giữ giấy phép gốc —
+xem [NOTICE](NOTICE) và [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) (phụ thuộc phân phối, sinh tự động).
